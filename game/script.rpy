@@ -8,7 +8,7 @@ init:
     $ blod = ImageDissolve(im.Tile("blod.png"), 3.0, 30, reverse=False)
     $ flash2 = ImageDissolve(im.Tile("flash.png"), 2.0, 20)
 
-	$ dt = "ночь"
+    $ dt = "ночь"
 screen daytime:
     if dt == "пыль":
         add "#7679"
@@ -17,7 +17,7 @@ screen daytime:
 
 init:
     transform cred_up:
-        yalign -1.5
+        yalign 1.5
         linear 10 yalign 0.5
         
 # Заставка
@@ -43,6 +43,8 @@ label start:
     e "Вы создали новую игру Ren'Py."
 
     e "Добавьте сюжет, изображения и музыку и отправьте её в мир!"
+
+    jump end
 
     return
 
