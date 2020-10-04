@@ -1,13 +1,13 @@
 ﻿# Вы можете расположить сценарий своей игры в этом файле.
 
 # Определение персонажей игры.
-define t = Character("Трикстер")#, color='#990066', image = "will")
-define d = Character("Дерево")#, color='#990066', image = "will")
-define e = Character("Эхо", color='#990066')
-define r = Character("Русалка")#, color='#990066', image = "will")
-define v = Character("Ведьма")#, color='#990066', image = "will")
-define l = Character("Леший")#, color='#990066', image = "will")
-define i = Character("Идол")#, color='#990066', image = "will")
+define t = Character("Трикстер", color='7b0323')
+define d = Character("Дерево", color='#c04000')
+define e = Character("Эхо", color='#c41e3a')
+define r = Character("Русалка", color='#00ff7f')
+define v = Character("Ведьма", color='#9932cc')
+define l = Character("Леший", color='#228b22')
+define i = Character("Идол", color='#ff7518')
 
 init:
 # hide screen daytime with noisedissolve
