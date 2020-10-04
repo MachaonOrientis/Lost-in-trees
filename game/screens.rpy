@@ -1,7 +1,7 @@
 ﻿################################################################################
 ## Инициализация
 ################################################################################
-
+define persistent.say_window_alpha = 0.5
 init offset = -1
 
 
@@ -76,7 +76,6 @@ style frame:
     background Frame("gui/frame.png", gui.frame_borders, tile=gui.frame_tile)
 
 
-
 ################################################################################
 ## Внутриигровые экраны
 ################################################################################
@@ -98,6 +97,7 @@ screen say(who, what):
     style_prefix "say"
 
     window:
+        background Transform(style.window.background, alpha=persistent.say_window_alpha)
         id "window"
 
         if who is not None:
