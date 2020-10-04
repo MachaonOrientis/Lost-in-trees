@@ -15,6 +15,7 @@ screen daytime:
     if dt == "ночь":
         add "#000b"
 
+
 init:
     transform cred_up:
         yalign 1.5
