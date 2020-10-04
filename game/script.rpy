@@ -22,20 +22,8 @@ screen daytime:
 init:
     $ timer_range = 0
     $ timer_jump = 0
+    $ time = 0.7
     
-init:
-    $ renpy.music.register_channel("bgloop", mixer="sfx", loop=True, stop_on_mute=True, tight=False, file_prefix='', file_suffix='', buffer_queue=True, movie=False, framedrop=True)
-    $ renpy.music.register_channel("bgloop2", mixer="sfx", loop=True, stop_on_mute=True, tight=False, file_prefix='', file_suffix='', buffer_queue=True, movie=False, framedrop=True)
-    $ renpy.music.register_channel("bgsfx1", mixer="sfx", loop=False, stop_on_mute=True, tight=False, file_prefix='', file_suffix='', buffer_queue=True, movie=False, framedrop=True)
-    $ renpy.music.register_channel("bgsfx2", mixer="sfx", loop=False, stop_on_mute=True, tight=False, file_prefix='', file_suffix='', buffer_queue=True, movie=False, framedrop=True)
-    $ renpy.music.register_channel("bgsfx3", mixer="sfx", loop=False, stop_on_mute=True, tight=False, file_prefix='', file_suffix='', buffer_queue=True, movie=False, framedrop=True)
-    $ renpy.music.register_channel("bgsfx4", mixer="sfx", loop=False, stop_on_mute=True, tight=False, file_prefix='', file_suffix='', buffer_queue=True, movie=False, framedrop=True)
-
-init:
-    transform cred_up:
-        yalign 1.5
-        linear 10 yalign 0.5
-        
 transform alpha_dissolve:
     alpha 0.0
     linear 0.5 alpha 1.0
@@ -45,10 +33,15 @@ transform alpha_dissolve:
 screen countdown:
     timer 0.01 repeat True action If(time > 0, true=SetVariable('time', time - 0.01), false=[Hide('countdown'), Jump(timer_jump)])
     bar value time range timer_range xalign 0.5 yalign 0.9 xmaximum 300 at alpha_dissolve
-$ time = 0.7
-$ timer_range = 0.7
-$ timer_jump = 'dead'
-    #show screen countdown
+    
+init:
+    $ renpy.music.register_channel("bgloop", mixer="sfx", loop=True, stop_on_mute=True, tight=False, file_prefix='', file_suffix='', buffer_queue=True, movie=False, framedrop=True)
+    $ renpy.music.register_channel("bgloop2", mixer="sfx", loop=True, stop_on_mute=True, tight=False, file_prefix='', file_suffix='', buffer_queue=True, movie=False, framedrop=True)
+    $ renpy.music.register_channel("bgsfx1", mixer="sfx", loop=False, stop_on_mute=True, tight=False, file_prefix='', file_suffix='', buffer_queue=True, movie=False, framedrop=True)
+    $ renpy.music.register_channel("bgsfx2", mixer="sfx", loop=False, stop_on_mute=True, tight=False, file_prefix='', file_suffix='', buffer_queue=True, movie=False, framedrop=True)
+    $ renpy.music.register_channel("bgsfx3", mixer="sfx", loop=False, stop_on_mute=True, tight=False, file_prefix='', file_suffix='', buffer_queue=True, movie=False, framedrop=True)
+    $ renpy.music.register_channel("bgsfx4", mixer="sfx", loop=False, stop_on_mute=True, tight=False, file_prefix='', file_suffix='', buffer_queue=True, movie=False, framedrop=True)
+
     
 # Изображения
 init:
@@ -257,7 +250,7 @@ label label5:
 
     scene l4
     
-    "Похоже, вы смогли выбраться из топей"
+    "Похоже, вы смогли выбраться из топей."
     
     centered "На вещем камне написано:{p}{p}Направо пойдешь - к мертвым на обед попадешь. Как хочешь, так и понимай.{p}{p}Налево пойдешь - сердце тьмы найдешь. Хотя туда только по записи, так что не факт.{p}{p}Прямо пойдешь - а сам сходи и узнай, чего это я тут распинаюсь. Да еще и в рифму, мне за такое не платят"
     
@@ -281,8 +274,13 @@ label label6:
     v "А пойдем ко мне в избу, я тебя накормлю, напою да спать уложу."
     v "Круг кружит, пруток лежит, ручеек под ним бежит, как сломаю я пруток, ворожбы настанет срок, бег воды остановится, слово крепкое смолвится."
 
+    $ time = 0.7
+    $ timer_range = 0.7
+    $ timer_jump = 'dead'
+    show screen countdown
     menu:
-        "Сопротивляться чарам": #qte
+        "Сопротивляться чарам":
+            hide screen countdown
             v "Ах, не слушай глупую одинокую женщину, несу всякий вздор. Пойдем лучше в избу, пироги да блины остывают, я тебе угожу, раны твои исцелю да силы восстановлю."
     v "Ну вот и славно. Пойдем, пойдем. Раздевайся, тебе это все уже будет не нужно. Садись пока сюда, на лопату, а я добавлю жару в печи."
     
@@ -296,11 +294,21 @@ label label6:
                 jump label8
             "Спросить про правильный путь из леса":
                 v "Путь путеюшки змеятся, лентой ситцевой кружатся, ленточкой тебя свяжу, чары в сердце положу"
+                $ time = 0.7
+                $ timer_range = 0.7
+                $ timer_jump = 'dead'
+                show screen countdown
                 menu:
-                    "Сопротивляться": #qte
+                    "Сопротивляться":
+                        hide screen countdown
                         v "Я та, кого ты и искал. Коль хочешь выбраться из чащи, так я одна тебе и помогу. Но для почину тебя надо в баньке попарить да блинами накормить."
+                        $ time = 0.7
+                        $ timer_range = 0.7
+                        $ timer_jump = 'dead'
+                        show screen countdown
                         menu:
-                            "Применить навий посох": #qte
+                            "Применить навий посох":
+                                hide screen countdown
                                 jump label7
             "Спросить, кто она":
                 v "Я та, кого ты и искал. Коль хочешь выбраться из чащи, так я одна тебе и помогу. Но для почину тебя надо в баньке попарить да блинами накормить."
@@ -318,8 +326,13 @@ label label6_1:
     scene l5
     "На миг вместо прекрасной женщины перед вами предстала уродливая мертвая старуха."
     v "Ах ты лиходей срамный! Получай костяной ногой!"
+    $ time = 0.7
+    $ timer_range = 0.7
+    $ timer_jump = 'dead'
+    show screen countdown
     menu:
-        "Уклониться": #qte
+        "Уклониться":
+            hide screen countdown
             jump label7
     
 return
@@ -343,11 +356,17 @@ label label7:
             l "Вот и славно! Скоро мы все наконец вздохнем спокойно да закатим пир на весь мир. И ты отправишься домой мед пиво пить."
         "Отказаться":
             l "Эх, не зазорна трусость. Коль сам бы не трусил, вызвал бы силу нечистую на поле бранное!"
-        "Использовать посох навьи": #qte
+        "Использовать посох навьи": 
+            $ time = 0.7
+            $ timer_range = 0.7
+            $ timer_jump = 'dead_with'
+            show screen countdown
+            menu:
+                "Сопротивляться":
+                    hide screen countdown
             l "Ах ты..дочурка моя, девица красна. Сгубил ее этот лес, все силы выжал. А я, не смог уберечь ни лес, ни ее. Бедняжка руки на себя наложила. Жалкий я дурень..."
             l "Послушай, возьми водичку живую. Коль встретится она тебе, молю, плесни на нее. Она вновь в живую обратится. Я бы сам сходил... да не могу ей в очи смотреть ее навьи, укора и ненависти полные. "
             l "От стыда в голове будто чаща от ветра дикого шумит."
-            # смерть
         
     jump label8
     
@@ -366,7 +385,15 @@ label label8:
                 i "Ты разговариваешь с богом этого леса! Пади ниц и принеси мне достойную жертву! Сердце разумного существа! И тогда, я смилостивлюсь и не покараю тебя за твою дерзость, червь. И может даже выпущу отсюда. Обещаю, что выпущу."
                 $ q.append(1)
                 $ renpy.block_rollback()
-            "Применить посох": #qte
+            "Атаковать":
+                $ time = 0.7
+                $ timer_range = 0.7
+                $ timer_jump = 'dead'
+                show screen countdown
+                menu:
+                    "Применить посох":
+                        hide screen countdown
+                        i "Я неподвластен русалочьим чарам, глупец!"
                 i "Я - злая, испорченная душа этого леса. Мне нужны вкусные души путников вроде тебя, забредших в этот мир случайно."
                 i "Если меня не будут кормить жертвами, я умру. А я очень боюсь умирать. Не будет никакого перерождения. Я не хочу. Я должен поглотить души!"
                 i "Я ведь могу закончить твои страдания… Выпустить тебя. Просто принеси мне сердца!"
@@ -377,10 +404,21 @@ label label8:
                 jump dead
             "Уйти":
                 jump dead
-    # menu:
             "Разломать идол":
                 "Вы касаетесь идола и земля проваливается у вас под ногами."
                 jump dead
+    
+    return
+    
+label dead_with:
+
+    scene l5
+    v "Что за палкой тут тычешь? Аль череп на ней? Не могу разглядеть, стал слаб мой взор."
+    
+    scene smert with blod:
+        time 3
+    $ renpy.pause(3.0, hard=True)
+    "Вы погибли!"
     
     return
     
