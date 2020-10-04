@@ -22,3 +22,11 @@ log.txt
 *.txt
 *.rpyc
 game/gui.rpyc
+*.rpyb
+*.rpyb
+game/cache/pyanalysis.rpyb
+game/gui.rpyc
+*.rpyc
+*.json
+log.txt
+*.txt
