@@ -2,12 +2,19 @@
 
 # Определение персонажей игры.
 define t = Character("Трикстер", color='7b0323')
-define d = Character("Дерево", color='#c04000')
+# Если ты это читаешь, то этот цвет называется винно красный
+define d = Character("Дерево", color='#9f8170')
+# Боброоовый :D
 define e = Character("Эхо", color='#c41e3a')
-define r = Character("Русалка", color='#00ff7f')
-define v = Character("Ведьма", color='#9932cc')
-define l = Character("Леший", color='#228b22')
-define i = Character("Идол", color='#ff7518')
+# Кардинал!
+define r = Character("Русалка", color='#228b22')
+# Лесной зеленый, символично!
+define v = Character("Ведьма", color='#a9203e')
+# Глубокий карминный. Для ведьмы просто, чтобы без проклятий!
+define l = Character("Леший", color='#834d18')
+# Цвет медвежьего ушка!!!
+define i = Character("Идол", color='#808000')
+# Оливковый.
 
 
 # Эффекты
