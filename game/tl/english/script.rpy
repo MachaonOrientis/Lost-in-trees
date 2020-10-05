@@ -265,223 +265,223 @@ translate english label4_7cb6afb9:
 translate english label5_fb1cfd45:
 
     # "Похоже, вы смогли благополучно выбраться топей."
-    ""
+    "It seems you managed to leave the bog."
 
 # game/script.rpy:320
 translate english label5_891368d0:
 
     # "Почему бы не сделать еще один кружочек по болоту?"
-    ""
+    "Why don't take another lap around the swamp?"
 
 # game/script.rpy:332
 translate english label6_7f7cb42e:
 
     # v "Мравствуй. И откуда мы такие красивые? Какой румянец да вид свежий. Очень соблазнительно."
-    v ""
+    v "Bad afternoon. Who so attractive do we have here? So blushy, so fresh. Highly temptive."
 
 # game/script.rpy:336
 translate english label6_1906a94a:
 
     # v "А пойдем ко мне в избу, я тебя накормлю, напою да спать уложу."
-    v ""
+    v "Let's go to my hut. I'll serve you a meal, a drink and put you to the bed."
 
 # game/script.rpy:337
 translate english label6_08d00860:
 
     # v "Круг кружит, пруток лежит, ручеек под ним бежит, как сломаю я пруток, ворожбы настанет срок, бег воды остановится, слово крепкое смолвится."
-    v ""
+    v "The circle is running, the needle is lying, that one’s under rivulet’s crying. As I break the needle, the charms will appear here and stop waters running, strong word shall be sounding. Circle swirling."
 
 # game/script.rpy:349
 translate english label6_8c1b9aa9:
 
     # v "Ах, не слушай глупую одинокую женщину, несу всякий вздор. Пойдем лучше в избу, пироги да блины остывают, я тебе угожу, раны твои исцелю да силы восстановлю."
-    v ""
+    v "Oh, don't listen to the lone lady's mumbling. Better go to the hut, pancakes begin to cool, I'll please you, heal your wounds and make you recover."
 
 # game/script.rpy:357
 translate english label6_47f083f5:
 
     # v "Мудро рассудил. Проходи через порожек аккуратно. Вот и все. Кто через порог прошел, тот моим стал. Раздевайся, тебе это все уже будет не нужно. Садись пока сюда, на лопату, а я добавлю жару в печи."
-    v ""
+    v "Wise of you. Pass the doorstep carefully. It's over now. Who's crossing the threshold is mine. Don't try to resist, it's a very strong magic rule. Take off your clothes now, you don't need them anymore. Seat here while I'm fire up the stove."
 
 # game/script.rpy:367
 translate english label6_051f9aa5:
 
     # v "Путь путеюшки змеятся, лентой ситцевой кружатся, ленточкой тебя свяжу, чары в сердце положу"
-    v ""
+    v "And the path of paths does twist, as the cotton ribbon spins. With that ribbon you'll be tied, I’ll enchant the heart of thine."
 
 # game/script.rpy:378
 translate english label6_8628a13d:
 
     # v "Неожиданно. А ты достойный противник."
-    v ""
+    v "Unexpectedly. You are a strong rival."
 
 # game/script.rpy:383
 translate english label6_4b298272:
 
     # v "Ну вот и славно. Пойдем, пойдем. Раздевайся, тебе это все уже будет не нужно. Садись пока сюда, на лопату, а я добавлю жару в печи."
-    v ""
+    v "Fine. Let's go. Don't try to resist, it's in vain, you are charmed now. Take off your clothes now, you don't need them anymore. Seat here while I'm fire up the stove."
 
 # game/script.rpy:389
 translate english label6_43a434ca:
 
     # v "Я та, кого ты и искал. Коль хочешь выбраться из чащи, так я одна тебе и помогу. Но для почину тебя надо в баньке попарить да блинами накормить."
-    v ""
+    v "I'm the one you've searched for. If you want to leave the woods, only I can help you. But first you'll eat my pancakes and take a nap in my bed."
 
 # game/script.rpy:396
 translate english label6_865731c3:
 
     # v "Эти мавкины причуды здесь не работают."
-    v ""
+    v "Undine's magic doesn't work on me."
 
 # game/script.rpy:406
 translate english label6_1_7fcbaef6:
 
     # "На миг вместо прекрасной женщины перед вами предстала уродливая мертвая старуха."
-    ""
+    "For a moment you see an ugly dead crone instead of a young beautiful woman."
 
 # game/script.rpy:407
 translate english label6_1_2fa25595:
 
     # v "Ах ты лиходей срамный! Получай костяной ногой!"
-    v ""
+    v "You moron! I'll strike you down!"
 
 # game/script.rpy:425
 translate english label7_7e9b7e70:
 
     # l "Кто это бродит по моему лесу? Не видал твою морду раньше. Ну, поклонись лесному хозяину!"
-    l ""
+    l "Who's roaming in my forest? Haven't seen your snout before. Bow to me!"
 
 # game/script.rpy:428
 translate english label7_61fd44ce:
 
     # l "Ха-ха, ну спасибо! Давно меня никто уже хозяином сего леса не признает."
-    l ""
+    l "Ha, thank you! Nobody's acknowledged my power for so long."
 
 # game/script.rpy:430
 translate english label7_b1d55b75:
 
     # l "Вот, никто меня теперь не считает здесь хозяином."
-    l ""
+    l "That's it, nobody considers me a master here anymore."
 
 # game/script.rpy:434
 translate english label7_fff02994:
 
     # l "А все из-за зла давно уж здесь поселившегося. Все думают, коль плутаем да блуждаем, коль тьма душит, так это леший повинен. Ан нет, все нечистое от того поганого капища идет!"
-    l ""
+    l "That's all because of the evil that dwells in the woods. Everyone thinks that if they are wandering and straying, it's me to blame. But I can do nothing with the evil power that invaded the forest."
 
 # game/script.rpy:435
 translate english label7_b06b7201:
 
     # l "Помоги нам! Разломай идола на капище! Спаси лес, а мы уж в долгу не останемся. Коль исполнишь просьбу да пожелаешь, выведу тебя самой короткой дорогой, не будь я леший."
-    l ""
+    l "Help us! Break the idol of the evil! Rescue the forest! And we'll pay you back! If you fulfil my request, I'll get you out of the woods on the shortest path! I promise!"
 
 # game/script.rpy:439
 translate english label7_8ef3f574:
 
     # l "Вот и славно! Скоро мы все наконец вздохнем спокойно да закатим пир на весь мир. И ты отправишься домой мед пиво пить."
-    l ""
+    l "Fine! Soon we'll rest easy and have the greatest feast! And you'll go home."
 
 # game/script.rpy:441
 translate english label7_c01f8dfc:
 
     # l "Эх, не зазорна трусость. Коль сам бы не трусил, вызвал бы силу нечистую на поле бранное!"
-    l ""
+    l "I understand your fear and can't blame you. If I wasn't afraid too, I would challenge the evil to the final battle!"
 
 # game/script.rpy:453
 translate english label7_b9c10b34:
 
     # l "Помню... помню дочурку мою, девицу красну. Сгубил ее этот лес, все силы выжал. А я не смог уберечь ни лес, ни ее. Бедняжка руки на себя наложила. Жалкий я дурень..."
-    l ""
+    l "I recall my daughter. My sweet beautiful girl. The evil in the forest ruined her, squeezed the life out of her. I failed to save the forest. I failed to save her. She committed suicide."
 
 # game/script.rpy:454
 translate english label7_2994b664:
 
     # l "Вот бы можно было в живую ее обратно оборотить. Я бы все за это отдал... лишь бы в очи ее навьи более не смотреть, укора и ненависти полные. "
-    l ""
+    l "I would have given anything to resurrect her... and never more see hatred, disappointment and reproach in her dead eyes."
 
 # game/script.rpy:455
 translate english label7_12e6bd47:
 
     # l "От стыда в голове будто чаща от ветра дикого шумит."
-    l ""
+    l "I'm so ashamed."
 
 # game/script.rpy:468
 translate english label8_c1e4f4cf:
 
     # i "Еще один смертный. Ты пришел принести жертву?"
-    i ""
+    i "Another mortal. You come to sacrifice, don't you?"
 
 # game/script.rpy:474
 translate english label8_92d8360f:
 
     # i "Ты разговариваешь с богом этого леса! Пади ниц и принеси мне достойную жертву! Свое сердце!"
-    i ""
+    i "You are addressing the god of this forest! Grovel and bring me your heart as a sacrifice!"
 
 # game/script.rpy:485
 translate english label8_2d51dbc8:
 
     # i "Я неподвластен русалочьим чарам, глупец!"
-    i ""
+    i "I'm beyond the undine's magic, you fool!"
 
 # game/script.rpy:486
 translate english label8_6f20482c:
 
     # i "Я - злая, испорченная душа этого леса. Мне нужны вкусные души путников вроде тебя, забредших в этот мир случайно."
-    i ""
+    i "I'm an evil, corrupted soul of this forest! I need delicious hearts! I desire devouring souls!"
 
 # game/script.rpy:487
 translate english label8_3674b9aa:
 
     # i "Если меня не будут кормить жертвами, я умру. А я очень боюсь умирать. Не будет никакого перерождения. Я не хочу. Я должен поглотить души!"
-    i ""
+    i "I... I will die without new sacrifices. And I'm so afraid of death."
 
 # game/script.rpy:492
 translate english label8_d544ebb6:
 
     # i "Ты смеешь что-то требовать от меня? Кто тебе вообще разрешил разговаривать со мной? Исчезни, ничтожество."
-    i ""
+    i "You dare demand anything from me? Who's allowed you to speak to me! Disappear, you insect!"
 
 # game/script.rpy:498
 translate english label8_065134eb:
 
     # "Вы касаетесь идола и земля проваливается у вас под ногами."
-    ""
+    "When you touch the idol, the ground opens up under your feet."
 
 # game/script.rpy:509
 translate english label9_6e79d3a6:
 
     # t "Ну что ж… круг замкнулся. Ты снова пришел ко мне."
-    t ""
+    t "So, full circle. You made a loop... or maybe another loop. And return to me. Again."
 
 # game/script.rpy:513
 translate english label9_9fc46596:
 
     # t "Теперь ты будешь вечно ходить по этому кругу и развлекать меня, раз за разом исполняя одну и ту же пьесу. Да, реквизита здесь маловато, увы."
-    t ""
+    t "What's next, you may ask. The answer is simple. You'll follow that same circle and perform the same play eternally. That entertains me."
 
 # game/script.rpy:514
 translate english label9_e4303249:
 
     # t "Но не унывай, ты скоро привыкнешь и перестанешь обращать внимание на такие мелочи..."
-    t ""
+    t "Alas, there are not so many scenes in the play, but enough to keep you in while I'm replacing you in your world pursuing my ambitious goals in disguise, beneath the facade of your face."
 
 # game/script.rpy:526
 translate english dead_leha_4b48bfa5:
 
     # l "Что за палкой тут тычешь? Аль череп на ней? Не могу разглядеть, стал слаб мой взор."
-    l ""
+    l "What is the stick you are waving? Are you trying to enchant me?"
 
 # game/script.rpy:527
 translate english dead_leha_8cb69b97:
 
     # l "А ну пойди прочь, окаянный!"
-    l ""
+    l "Get away, you damn fool! Don't try your tricks on me."
 
 # game/script.rpy:541
 translate english dead_acfbae39:
 
     # "Вы погибли!"
-    ""
+    "You are dead!"
 
 translate english strings:
 
@@ -546,6 +546,9 @@ translate english strings:
     old "Вернуться назад"
     new "Come back"
 
+    old "{p}{p}Направо пойдешь - к мертвым на обед попадешь. Как хочешь, так и понимай.{p}{p}Налево пойдешь - сердце тьмы найдешь. Хотя туда только по записи, так что не факт.{p}{p}Прямо пойдешь - а сам сходи и узнай. Чего это я тут распинаюсь. Да еще и в рифму! Мне за такое не платят.{p}"
+    new "If you choose to go right, dead will feast on you all night.{p}{p}If you choose to go left - heart of darkness lies ahead. Of course, you can pass there only if you have a written permission with all the signatures of the authorized forest officials.{p}{p}If you try to go ahead, then go and check it yourself. For whom do I make these efforts? In rhyme! I do not get paid for that.{p}"
+
     # game/script.rpy:229
     old "Поинтересоваться, что происходит"
     new "Wonder what's going on"
@@ -580,85 +583,92 @@ translate english strings:
 
     # game/script.rpy:312
     old "Идти налево"
-    new ""
+    new "Go left"
 
     # game/script.rpy:312
     old "Идти направо"
-    new ""
+    new "Go right"
 
     # game/script.rpy:343
     old "Сопротивляться чарам"
-    new ""
+    new "Resist the spell"
 
     # game/script.rpy:355
     old "Принять предложение"
-    new ""
+    new "Accept the proposal"
 
     # game/script.rpy:355
     old "Бежать куда глаза глядят"
-    new ""
+    new "Run wherever you can"
 
     # game/script.rpy:355
     old "Спросить про правильный путь из леса"
-    new ""
+    new "Ask about the right way out of the woods"
 
     # game/script.rpy:355
     old "Спросить, кто она"
-    new ""
+    new "Ask who she is"
 
     # game/script.rpy:355
     old "Применить навий посох"
-    new ""
+    new "Apply the magic staff"
 
     # game/script.rpy:372
     old "Подчиниться чарам"
-    new ""
+    new "Surrender to the spell"
 
     # game/script.rpy:412
     old "Уклониться"
-    new ""
+    new "Dodge"
 
     # game/script.rpy:426
     old "Поклониться"
-    new ""
+    new "Bow"
 
     # game/script.rpy:426
     old "Отказаться"
-    new ""
+    new "Refuse"
 
     # game/script.rpy:437
     old "Использовать посох навьи"
-    new ""
+    new "Apply the magic staff"
 
     # game/script.rpy:447
     old "Зачаровать"
-    new ""
+    new "Put a spell on"
 
     # game/script.rpy:456
     old "Идти дальше"
-    new ""
+    new "Go further"
 
     # game/script.rpy:472
     old "Спросить про жертву"
-    new ""
+    new "Ask about the sacrifice"
 
     # game/script.rpy:472
     old "Применить посох"
-    new ""
+    new "Apply the magic staff"
 
     # game/script.rpy:472
     old "Потребовать освободить себя"
-    new ""
+    new "Demand to be released"
 
     # game/script.rpy:472
     old "Разломать идол"
-    new ""
+    new "Break the idol"
 
     # game/script.rpy:482
     old "Начертить посохом руну"
-    new ""
+    new "Draw the rune of will with the staff"
 
     # game/script.rpy:528
     old "Убежать"
-    new ""
+    new "Run away"
+    
+    old "О, моя любимая часть представления. Видеть страх понимания в твоих глазах."
+    new "Oh, it's my favourite part of the performance. To see the fear of recognition in your eyes."
+
+    old "Но не отчаивайся. Ты очень скоро все это забудешь. И вновь чист и полон надежд."
+    new "But don't despair. You'll forget everything very soon. Blank and hopeful."
+
 
