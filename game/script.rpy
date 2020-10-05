@@ -536,7 +536,7 @@ label end:
     scene black with dissolve
     
     show text "Менеджер проекта:{p}{p}Анна Большекова vk.com/machaonorientis{p}{p}Нарративный дизайнер:{p}{p}Святослав Жиленко{p}{p}Программист:{p}{p}Анна Большекова vk.com/machaonorientis{p}{p}Художники:{p}{p}Анастасия Романова vk.com/ka_missa{p}{p}Vadim Zalepaev{p}{p}Юлия Лейон{p}{p}Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)" at cred_up
-    $ renpy.pause(10, hard = True)
+    $ renpy.pause(13, hard = True)
 
     jump start
 

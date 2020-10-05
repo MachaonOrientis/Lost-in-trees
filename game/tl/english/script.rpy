@@ -1,5 +1,13 @@
 ﻿# TODO: Translation updated at 2020-10-05 21:30
 
+define t = Character("Trickster", color='7b0323')
+define d = Character("Tree", color='#cde80f')
+define e = Character("Echo", color='#c41e3a')
+define r = Character("Undine", color='#228b22')
+define v = Character("Witch", color='#a9203e')
+define l = Character("Silvan", color='#834d18')
+define i = Character("Idol", color='#808000')
+
 
 # game/script.rpy:100
 translate english start_e6973fd0:
