@@ -448,22 +448,6 @@ translate english label8_065134eb:
     "When you touch the idol, the ground opens up under your feet."
 
 # game/script.rpy:509
-translate english label9_6e79d3a6:
-
-    # t "Ну что ж… круг замкнулся. Ты снова пришел ко мне."
-    t "So, full circle. You made a loop... or maybe another loop. And return to me. Again."
-
-# game/script.rpy:513
-translate english label9_9fc46596:
-
-    # t "Теперь ты будешь вечно ходить по этому кругу и развлекать меня, раз за разом исполняя одну и ту же пьесу. Да, реквизита здесь маловато, увы."
-    t "What's next, you may ask. The answer is simple. You'll follow that same circle and perform the same play eternally. That entertains me."
-
-# game/script.rpy:514
-translate english label9_e4303249:
-
-    # t "Но не унывай, ты скоро привыкнешь и перестанешь обращать внимание на такие мелочи..."
-    t "Alas, there are not so many scenes in the play, but enough to keep you in while I'm replacing you in your world pursuing my ambitious goals in disguise, beneath the facade of your face."
 
 # game/script.rpy:526
 translate english dead_leha_4b48bfa5:
@@ -536,7 +520,7 @@ translate english strings:
 
     # game/script.rpy:184
     old "Попытаться вытащить кинжал!"
-    new "Try to put the dagger away"
+    new "Try to put the dagger away!"
 
     # game/script.rpy:200
     old "Идти дальше через болото"
@@ -664,6 +648,15 @@ translate english strings:
     # game/script.rpy:528
     old "Убежать"
     new "Run away"
+
+    old "Ну что ж… круг замкнулся. Ты снова пришел ко мне."
+    new "So, full circle. You made a loop... or maybe another loop. And return to me. Again."
+
+    old "Теперь ты будешь вечно ходить по этому кругу и развлекать меня, раз за разом исполняя одну и ту же пьесу. Да, реквизита здесь маловато, увы."
+    new "What's next, you may ask. The answer is simple. You'll follow that same circle and perform the same play eternally. That entertains me."
+
+    old "Но не унывай, ты скоро привыкнешь и перестанешь обращать внимание на такие мелочи..."
+    new "Alas, there are not so many scenes in the play, but enough to keep you in while I'm replacing you in your world pursuing my ambitious goals in disguise, beneath the facade of your face."
     
     old "О, моя любимая часть представления. Видеть страх понимания в твоих глазах."
     new "Oh, it's my favourite part of the performance. To see the fear of recognition in your eyes."
