@@ -2,6 +2,7 @@
 ## Инициализация
 ################################################################################
 define persistent.say_window_alpha = 0.5
+define persistent.say_menu_alpha = 0.7
 init offset = -1
 
 
@@ -364,6 +365,7 @@ screen main_menu():
 
     ## Эта пустая рамка затеняет главное меню.
     frame:
+        background Transform(style.frame.background, alpha=persistent.say_menu_alpha)
         pass
 
     ## Оператор use включает отображение другого экрана в данном. Актуальное
@@ -429,13 +431,15 @@ screen game_menu(title, scroll=None, yinitial=0.0):
 
     frame:
         style "game_menu_outer_frame"
+        background Transform(style.frame.background, alpha=persistent.say_menu_alpha)
 
         hbox:
 
             ## Резервирует пространство для навигации.
             frame:
                 style "game_menu_navigation_frame"
-
+                
+                
             frame:
                 style "game_menu_content_frame"
 
@@ -747,6 +751,12 @@ screen preferences():
                     textbutton _("Всего текста") action Preference("skip", "toggle")
                     textbutton _("После выборов") action Preference("after choices", "toggle")
                     textbutton _("Переходов") action InvertSelected(Preference("transitions", "toggle"))
+                    
+                vbox:
+                    style_prefix "pref"
+                    label _("Язык")
+                    textbutton "Русский язык" action Language(None)
+                    textbutton "English" action Language("english")
 
                 ## Дополнительные vbox'ы типа "radio_pref" или "check_pref"
                 ## могут быть добавлены сюда для добавления новых настроек.
@@ -766,6 +776,7 @@ screen preferences():
                     label _("Скорость авточтения")
 
                     bar value Preference("auto-forward time")
+                    
 
                 vbox:
 
