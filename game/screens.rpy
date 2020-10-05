@@ -755,7 +755,7 @@ screen preferences():
                 vbox:
                     style_prefix "pref"
                     label _("Язык")
-                    textbutton "Русский язык" action Language(None)
+                    textbutton "Русский" action Language(None)
                     textbutton "English" action Language("english")
 
                 ## Дополнительные vbox'ы типа "radio_pref" или "check_pref"
